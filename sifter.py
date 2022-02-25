@@ -36,3 +36,8 @@ for line in f:
 print("source:" , source)
 print("destination:",destination)
 f.close();
+
+
+
+#for gathering port numbers:
+#each IP address has four decimal points-> start counting after the fourth decimal and stop after the " "
