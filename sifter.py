@@ -1,10 +1,4 @@
-#steps that need to be done:
-#open file->read line by line-> find pattern of where to extract text from 
-#in order to know where to extract from have to first save a pcap and see what it gives
-#from there we have to look at the plain text and see what we can gather from it
-#after that headache, we have to write what we find in another file so that it can be sent to server
-#-------------------------------------------------------------------------------------------#
-
+#!/usr/bin/env python3
 
 #sudo code:
 #open pcap file
@@ -16,15 +10,11 @@
 #close file B 
 #be on with your day
 
-traffic = open("abc.txt", "r");
-#data = open("data.txt","w");
-while traffic: 
-    line = traffic.readline();
-    #place if statements that will sift through the pcap
-    #here we have to look at the packets and then store ip addresses(?)
-    #then count how many times the ip addresses occur and if they're inbound or outbound
-    if line = "":
-        break
-traffic.close();
-data.close();
+f = open("abc.txt", "r")
+#data = open("data.txt","w")
+while f:  
+    line = f.readline()
+    #sort through the line and extract source and destination IPs
+
+f.close();
 
