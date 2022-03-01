@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 
-source=[]
-destination=[]
+packets=[]
 temp=""
 temp2=""
 pFlag = False
 iFlag = False
 carrotFlag = False
 f = open("testLine.txt", "r")
-#data = open("data.txt","w")
 for line in f:
     for character in line:
         if character == "I":
@@ -27,17 +25,13 @@ for line in f:
             temp2 = temp2+character
     temp=temp.lstrip("P ")
     temp2=temp2.lstrip("> ")
-    #print(temp)
-    #print(temp2)
-    source.append(temp)
-    destination.append(temp2)
+    packets.append((temp,temp2))
     temp=""
     temp2=""
-print("source:" , source)
-print("destination:",destination)
+print("packet tuples:" , packets)
 f.close();
 
 
-
-#for gathering port numbers:
-#each IP address has four decimal points-> start counting after the fourth decimal and stop after the " "
+#notes and to do list:
+#obug(?) where last element in the list of tuples is empty. This occurs in every file we check
+#should look at having the script take as input a txt file so that file being read isn't hard coded
