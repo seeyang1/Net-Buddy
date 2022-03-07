@@ -1,2 +1,2 @@
 sudo tcpdump -i eth0 -nn > sniffed.txt;
-./sifter.py;
+./sifter.py sniffed.txt;
