@@ -11,4 +11,4 @@ To Do: week of 4/3/22
 3. learn how to pull data from the server to the app (week of 4/10)
 4. push and pull data to and from the server manually to test integration
 5. refine scripts so that everything runs autonomously (week of 4/17)
-6. bug test and refine for final project (week of 4/24)
+6. bug test and refine for final presentation (week of 4/24)
