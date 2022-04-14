@@ -6,9 +6,9 @@ To Do: week of 4/3/22
 ~~1. get sql server up and running~~
 
 2. learn how to push data to the server from the pi
-  - Have to refine packet cap to include port numbers and protocol
-  - Have to refine scripts to also reverse lookup ips
+  - ~~Have to refine packet cap to include port numbers and protocol~~
 3. learn how to pull data from the server to the app (week of 4/10)
+- set up the node.js server to pull from sql database
 4. push and pull data to and from the server manually to test integration
 5. refine scripts so that everything runs autonomously (week of 4/17)
 6. bug test and refine for final presentation (week of 4/24)
