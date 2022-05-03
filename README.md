@@ -5,7 +5,7 @@ To Do:
 
 ~~1. get sql server up and running~~
 
-~~2. learn how to push data to the server from the pi
+~~2. learn how to push data to the server from the pi~~
   - ~~Have to refine packet cap to include port numbers and protocol~~
 
 3. learn how to pull data from the server to the app 
