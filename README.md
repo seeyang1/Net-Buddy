@@ -9,7 +9,7 @@ To Do:
   - ~~Have to refine packet cap to include port numbers and protocol~~
 
 3. learn how to pull data from the server to the app 
-  ~~-set up the node.js server to pull from sql database~~
+  - ~~-set up the node.js server to pull from sql database~~
 
 4. push and pull data to and from the server manually to test integration
 
