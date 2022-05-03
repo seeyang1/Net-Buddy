@@ -3,13 +3,13 @@
 
 To Do: 
 
-~~1. get sql server up and running
+~~1. get sql server up and running~~
 
 ~~2. learn how to push data to the server from the pi
-  ~~- Have to refine packet cap to include port numbers and protocol~~
+  - ~~Have to refine packet cap to include port numbers and protocol~~
 
 3. learn how to pull data from the server to the app 
-  ~~-set up the node.js server to pull from sql database
+  ~~-set up the node.js server to pull from sql database~~
 
 4. push and pull data to and from the server manually to test integration
 
