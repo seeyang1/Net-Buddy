@@ -41,5 +41,5 @@ for line in f:
 newList=Counter(packets).most_common()
 for i in newList:
     sqlLine=i[0][0]+"','"+i[0][1]+"','"+i[0][2]+"','"+i[0][3]+"','"+str(i[1])+"'"
-    os.system("mysql --host=net-buddy.mysql.database.azure.com --user=nbseniordesign --password=\"password\" -e \"use packet_sniffing; INSERT INTO nettraffic (Source,Destination,Protocol,Port,Count) VALUES (\'"+sqlLine+");\"")
+    os.system("mysql --host=net-buddy.mysql.database.azure.com --user=nbseniordesign --password=\"[password]\" -e \"use packet_sniffing; INSERT INTO nettraffic (Source,Destination,Protocol,Port,Count) VALUES (\'"+sqlLine+");\"")
 f.close();
